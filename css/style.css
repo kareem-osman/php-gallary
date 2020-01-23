@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+a{text-decoration: none;}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{display: flex;flex-wrap: wrap;justify-content: space-between;}
+:root{
+    main-color1:red;
+}
+/* -------main------------------------------- */
+.gallary-item,.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallary-item li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+.gallary-item li.active,.gallary-item li:hover{
+    color: #fff;
+    background-color: tomato;
+}
+.gallary > div {
+    height: 250px;
+    overflow: hidden;
+    margin: 10px;
+}
